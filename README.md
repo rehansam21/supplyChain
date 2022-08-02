@@ -74,11 +74,10 @@ Tracks an asset
 
 > Data and functionality to manage products,participants, ownership transfer data
 
-> Everything else except payment
 
 # Supply Chain Smart Contract Data Structure
 
-##>Product Structure -:
+>Product Structure -:
 	Eg model number, part number, cost, etc
 	Data that defines a unique product
 	mapping to get Product Structure
