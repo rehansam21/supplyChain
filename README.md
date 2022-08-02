@@ -41,25 +41,32 @@ Tracks an asset
 # Payment Token Smart Contracts Data Items
 
 > Total Supply -> Total number of tokens in circulation
+
 > name -> Descriptive token name 
+
 > decimals -> Number of decimal to use when displaying  token amount
+
 > Symbol -> Short identifier
+
 >balances -> Current balance of each participating account,
 	mapped to the account address
+
 >allowed -> Number of tokens authorized to transfer between accounts, mapped to sender's address
 
 # Payment Token Smart Contracts Function
 > totalSupply()
 	Returns current total number of tokens
-> BalanceoF()
+
+> BalanceoF()-:
 	Returns current balance of specific account
->allowance
+
+>allowance-:
 	Returns remaining number of tokens allowed to be transferred from one specific account to another speific account 
 
->transferFrom()
+>transferFrom()-:
 	Transfers tokens from one specific account to another specific account
 
->approve()
+>approve()-:
 	Maximum allowed tokens that can be transferred from one specific account to another specific account 
 
 
@@ -71,11 +78,12 @@ Tracks an asset
 
 # Supply Chain Smart Contract Data Structure
 
->Product Structure
-	EX model number, part number, cost, etc
+##>Product Structure -:
+	Eg model number, part number, cost, etc
 	Data that defines a unique product
 	mapping to get Product Structure
->Participant Structure
+
+>Participant Structure-:
 	Data that defines a unique participant
 	EX username,password,Ethereum address, etc. 
 	
@@ -87,11 +95,13 @@ Ownership Structure
 
 
 # Supply chain Smart contract Data Variables 
-> Product_id
+> Product_id-:
 	unique product Id, mapped to product structure
->Participant_id
+
+>Participant_id-:
 	Unique participant ID, mapped to participant structure
->Owner_id
+
+>Owner_id-:
 	Unique owner, mapped to registration structure
 
 
@@ -102,13 +112,16 @@ Ownership Structure
 
 >getParticipant()
 	Fetch information about a participant
+
 > addProduct()
 	create new product
+
 > getProduct()
 	Fetch information about a particular product.
 
 >newOwner()
 	Transfer of Ownership
+    
 >getProvenance()
 	Record of ownership
 
